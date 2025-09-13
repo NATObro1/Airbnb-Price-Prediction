@@ -9,7 +9,7 @@ A machine learning project predicting Airbnb prices using regression models (Lin
 
 ## 📋 Overview
 
-This project predicts Airbnb listing prices using several regression models. The goal is to provide accurate price estimates based on features such as location, room type, minimum nights, and more, leveraging linear and ensemble machine learning techniques.
+This project predicts Airbnb listing prices based on features such as location, room type, minimum nights, and more, using multiple regression models. Accurate price prediction helps Airbnb hosts optimize their pricing strategy, and assists guests in identifying fair deals.
 
 ---
 
@@ -31,6 +31,8 @@ This project predicts Airbnb listing prices using several regression models. The
 - **Booking:** minimum nights, availability
 - **Reviews:** number of reviews
 - **Target:** price (per night)
+
+(Dataset source: _add link or name here if public_)
 
 ---
 
@@ -54,11 +56,13 @@ This project predicts Airbnb listing prices using several regression models. The
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the main script:**
+3. **Open and run the main notebook:**
    ```bash
-   python Airbnb_Price_Prediction.ipynb
+   jupyter notebook Airbnb_Price_Prediction.ipynb
    ```
-   Adjust data paths and parameters in config files if needed.
+   Or [view it on GitHub](./Airbnb_Price_Prediction.ipynb).
+
+   _Adjust data paths and parameters in the notebook as needed._
 
 ---
 
@@ -66,12 +70,12 @@ This project predicts Airbnb listing prices using several regression models. The
 
 ```
 Airbnb-Price-Prediction/
-├── .gitignore              
-├── Airbnb_Price_Prediction.ipynb       
-├── Airbnb_Price_Prediction.pdf            
-├── requirements.txt 
-├── README.md        
-└── LICENSE          
+├── .gitignore
+├── Airbnb_Price_Prediction.ipynb
+├── Airbnb_Price_Prediction.pdf
+├── requirements.txt
+├── README.md
+└── LICENSE
 ```
 
 ---
@@ -91,6 +95,5 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## 👤 Author
 
-**Aman Kumar Yadav**
-
+**Aman Kumar Yadav**  
 [GitHub Profile](https://github.com/Amanyadav-07)
