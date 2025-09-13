@@ -56,7 +56,7 @@ This project predicts Airbnb listing prices using several regression models. The
    ```
 3. **Run the main script:**
    ```bash
-   python src/main.py
+   python Airbnb_Price_Prediction.ipynb
    ```
    Adjust data paths and parameters in config files if needed.
 
@@ -66,12 +66,12 @@ This project predicts Airbnb listing prices using several regression models. The
 
 ```
 Airbnb-Price-Prediction/
-├── src/             # Source code for data processing, model training, evaluation
-├── notebooks/       # Jupyter notebooks for EDA and experiments
-├── data/            # Raw and processed datasets
-├── requirements.txt # Python dependencies
-├── README.md        # Project documentation
-└── LICENSE          # License file
+├── .gitignore              
+├── Airbnb_Price_Prediction.ipynb       
+├── Airbnb_Price_Prediction.pdf            
+├── requirements.txt 
+├── README.md        
+└── LICENSE          
 ```
 
 ---
